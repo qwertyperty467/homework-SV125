@@ -1,0 +1,200 @@
+body {
+background: #000000;
+background: linear-gradient(316deg, rgba(0, 0, 0, 1) 0%, rgba(31, 171, 136, 1) 100%);
+}
+
+.hidden {
+display: none;
+}
+
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  /* border: 1px solid red; */
+}
+
+.header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background: #417a6b;
+  background: linear-gradient(
+    90deg,
+    rgba(65, 122, 107, 1) 0%,
+    rgba(22, 43, 37, 1) 20%,
+    rgba(8, 16, 14, 1) 50%,
+    rgba(22, 43, 37, 1) 80%,
+    rgba(65, 122, 107, 1) 100%
+  );
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__nav-list {
+  display: flex;
+  gap: 150px;
+}
+.header__nav-item {
+}
+.header__nav-link {
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.78px;
+}
+.hero-overlay {
+  background-color: black;
+}
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.6)), url("img/hero.jpg");
+  background-size: 80%;
+  background-position: center;
+  height: 1000px;
+}
+
+.hero-title {
+  color: #fff;
+  padding-top: 45px;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 161%;
+  letter-spacing: 1.56px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.hero-text {
+  color: #fff;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 161%;
+  letter-spacing: 1.56px;
+  text-transform: uppercase;
+  margin-bottom: 230px;
+}
+
+.hero-button {
+    display: block;
+    margin: 0 auto;
+color: rgb(255, 255, 255);
+background-color: rgb(14, 65, 60);
+font-size: 25px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 6%;
+text-align: center;
+width: 280px;
+height: 75px;
+border-radius: 10px;
+}
+
+.aboutMe {
+
+}
+.aboutMe-title {
+  padding-top: 50px;
+  color: white;
+  font-size: 55px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.aboutMe-list {
+  padding-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 155px;
+}
+.aboutMe-item {
+  background-color: #ffffff;
+  border-radius: 15px;
+  width: 400px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3),
+    1px 2px 2px 1px rgba(0, 0, 0, 0.4), 1px 2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+.aboutMe__title-item {
+  padding-top: 15px;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.aboutMe__text-item {
+  padding: 10px 20px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+  text-align: center;
+}
+.aboutMyCollege {
+}
+
+.aboutMyCollege-video {
+    margin: 25px 0px;
+}
+.aboutMyCollege-title {
+  padding-top: 50px;
+  color: white;
+  font-size: 55px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.aboutMyCollege-thumb {
+    margin-top: 50px;
+  background-color: rgba(65, 122, 107, 1);
+  border-radius: 15px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3),
+    1px 2px 2px 1px rgba(0, 0, 0, 0.4), 1px 2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+
+.aboutMyCollege__sub-title {
+  padding-top: 35px;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+
+  text-align: center;
+}
+.aboutMyCollege__text {
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+}
+.footer {
+
+}
+
+.footer-title {
+      color: #fff;
+  padding-top: 155px;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 161%;
+  letter-spacing: 1.56px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
